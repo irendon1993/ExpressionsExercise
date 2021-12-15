@@ -29,16 +29,24 @@ public class Main {
 //        bonus set to 200
 //        But make sure the first printout above still displays as well
 
-        boolean newGameOver = true;
-        int newScore =10000;
-        int newLevelCompleted = 8;
-        int newBonus = 100;
+//        boolean newGameOver = true;
+//        int newScore =10000;
+//        int newLevelCompleted = 8;
+//        int newBonus = 200;
+//
+//        if(newGameOver) {
+//            int finalScore = newScore + (newLevelCompleted * newBonus);
+//            System.out.println("Your final score was " + finalScore);
+//        }
 
-        if(newGameOver) {
-            int finalScore = newScore + (newLevelCompleted * newBonus);
-            System.out.println("Your final score was " + finalScore);
+        score = 10000;
+        levelCompleted = 8;
+        bonus = 200;
+
+        if (gameOver) {
+            int finalScore = score + (levelCompleted * bonus);
+            System.out.println("your final score was " + finalScore);
         }
-
 
 
     }
